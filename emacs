@@ -1,0 +1,36 @@
+(setq package-enable-at-startup nil) (package-initialize)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (solarized-dark)))
+ '(custom-safe-themes
+   (quote
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(default-frame-alist
+    (quote
+     ((vertical-scroll-bars)
+      (width . 150)
+      (height . 50))))
+ '(ido-mode nil nil (ido))
+ '(inhibit-startup-screen t)
+ '(menu-bar-mode nil)
+ '(package-archives
+   (quote
+    (("gnu" . "http://elpa.gnu.org/packages/")
+     ("melpa" . "http://melpa.org/packages/"))))
+ '(scroll-bar-mode nil)
+ '(tool-bar-mode nil)
+ '(uniquify-buffer-name-style (quote post-forward) nil (uniquify)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+(add-hook 'js-mode-hook 'js2-minor-mode)
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+(server-start)
