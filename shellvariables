@@ -1,0 +1,30 @@
+# shell variables
+TERM=xterm-256color
+export TERM
+
+PATH=/opt/bin:$PATH
+export PATH
+
+EDITOR=e
+export EDITOR
+
+ANDROID_HOME="/Users/Public/SDKs/android-sdk-macosx"
+PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export ANDROID_HOME
+export PATH
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/
+export PATH=$JAVA_HOME/bin:$PATH
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+
+export KINDLEGEN_HOME=~/bin/kindlegen
+PATH=$KINDLEGEN_HOME:$PATH
+export KINDLE_BOOKS_DIR='~/Library/Containers/com.amazon.Kindle/Data/Library/Application Support/Kindle/My Kindle Content'
+
+USER_BIN=~/bin
+PATH=$USER_BIN:$PATH
+export USER_BIN

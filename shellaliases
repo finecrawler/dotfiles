@@ -1,0 +1,3 @@
+# shell aliases
+alias emacs='emacs --daemon'
+alias checkip='ifconfig | grep "inet "'
