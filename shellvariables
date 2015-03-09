@@ -19,8 +19,6 @@ export PATH=$JAVA_HOME/bin:$PATH
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
-
 export KINDLEGEN_HOME=~/bin/kindlegen
 PATH=$KINDLEGEN_HOME:$PATH
 export KINDLE_BOOKS_DIR='~/Library/Containers/com.amazon.Kindle/Data/Library/Application Support/Kindle/My Kindle Content'
