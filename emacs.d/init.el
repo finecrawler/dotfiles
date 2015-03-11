@@ -1,5 +1,5 @@
 (require 'cl)
-(require 'cask "/Users/declan/.cask/cask.el")
+(require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (require 'pallet)
 (pallet-mode t)

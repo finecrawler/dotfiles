@@ -1,0 +1,7 @@
+#fishshell aliases
+alias emacs 'emacs --daemon'
+alias ec 'emacsclient -c'
+alias e 'emacsclient -t'
+alias pbcopy "xclip -selection clipboard"
+alias pbpaste="xclip -selection clipboard -o"
+

@@ -16,10 +16,11 @@ export PATH
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/
 export PATH=$JAVA_HOME/bin:$PATH
 
+export GRADLE_HOHE=/opt/Devloper/Apps/gradle-2.3
+export PATH=$GRADLE_HOME/bin:$PATH
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
 export KINDLEGEN_HOME=~/bin/kindlegen
 PATH=$KINDLEGEN_HOME:$PATH
