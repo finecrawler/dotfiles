@@ -22,6 +22,7 @@
 (load "06highlight-indentation.el")
 (load "07yasnippet.el")
 (load "08solarized.el")
+(load "09markdown-mode.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
