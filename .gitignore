@@ -1,0 +1,15 @@
+url
+var/
+**/auto-save-list/
+**/backups/
+**/elpa/
+**/.cask
+**/places
+**/.smex-items
+**/eshell
+**/project-persist
+**/.graphene-geometry
+**/*~
+**/ac-comphist.dat
+**/ido.last
+**/projectile-bookmarks.eld                                                
