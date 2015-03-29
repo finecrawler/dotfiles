@@ -54,4 +54,4 @@
 (depends-on "grizzl")
 (depends-on "highlight-indentation")
 (depends-on "yasnippet")
-(depends-on "solarized-theme")
+;;(depends-on "solarized-theme")
