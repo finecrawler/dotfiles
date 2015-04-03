@@ -24,6 +24,7 @@
 (load "08solarized.el")
 (load "09orgmode.el")
 (load "10markdown-mode.el")
+(load "11mu4e.el")
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
