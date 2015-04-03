@@ -55,3 +55,7 @@
 (depends-on "highlight-indentation")
 (depends-on "yasnippet")
 ;;(depends-on "solarized-theme")
+
+;;(source org)
+;;(depends-on "org")
+;;(depends-on "org-plus-contrib")
