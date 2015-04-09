@@ -1,3 +1,5 @@
+#! /usr/local/bin/fish
+
 # shell variables
 set -x TERM xterm-256color
 #set -x TERM xterm
@@ -8,7 +10,8 @@ set PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/platform-tools
 #set -x JAVA_OPTS "-Xms512m -Xmx1024m -XX:PermSize=64m -XX:MaxPermSize=128m -Xss512k"
 set -x GRADLE_HOME /opt/Developer/Apps/gradle-2.3
 set PATH $PATH $GRADLE_HOME/bin
-set -x GRADLE_OPTS "-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
+#set -x GRADLE_OPTS "-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
+#set -x GRADLE_OPTS "-Xmx1024M -XX:MaxPermSize=512M -XX:ReservedCodeCacheSize=512M -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005""
 
 set PATH $JAVA_HOME/bin $PATH
 
