@@ -24,3 +24,4 @@ set fish_plugins theme
 
 source ~/dotfiles/fishaliases
 source ~/dotfiles/fishvariables
+status --is-interactive; and . (pyenv init -|psub)
