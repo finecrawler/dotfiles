@@ -152,3 +152,16 @@
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+
+#http://www.lingotrek.com/2010/12/integrate-emacs-with-mac-os-x-clipboard.html
+(defun mac-copy ()
+  (shell-command-to-string "pbpaste"))
+
+(defun mac-paste (text &optional push)
+  (let ((process-connection-type nil))
+    (let ((proc (start-process "pbcopy" "*Messages*" "pbcopy")))
+      (process-send-string proc text)
+      (process-send-eof proc))))
+
+(setq interprogram-cut-function 'mac-paste)
+(setq interprogram-paste-function 'mac-copy)

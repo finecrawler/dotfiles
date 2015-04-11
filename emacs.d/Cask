@@ -1,6 +1,6 @@
-(source "melpa" "http://melpa.milkbox.net/packages/")
 (source gnu)
 (source marmalade)
+(source "melpa" "http://melpa.milkbox.net/packages/")
 
 (depends-on "ac-js2")
 (depends-on "adaptive-wrap")
@@ -54,6 +54,7 @@
 (depends-on "grizzl")
 (depends-on "highlight-indentation")
 (depends-on "yasnippet")
+(depends-on "ctable")
 ;;(depends-on "solarized-theme")
 
 ;;(source org)
