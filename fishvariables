@@ -12,6 +12,7 @@ set -x GRADLE_HOME /opt/Developer/Apps/gradle-2.3
 set PATH $PATH $GRADLE_HOME/bin
 #set -x GRADLE_OPTS "-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
 #set -x GRADLE_OPTS "-Xmx1024M -XX:MaxPermSize=512M -XX:ReservedCodeCacheSize=512M -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005""
+set -x JAVA_OPTS "-Xmx1024M -XX:MaxPermSize=512M -XX:ReservedCodeCacheSize=512M"
 
 set PATH $JAVA_HOME/bin $PATH
 
