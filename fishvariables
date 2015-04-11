@@ -5,8 +5,8 @@ set -x TERM xterm-256color
 #set -x TERM xterm
 set PATH /opt/bin $PATH
 set -x EDITOR "emacsclient -t"
-set -x ANDROID_HOME /Users/Public/SDKs/android-sdk-macosx
-set PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/platform-tools
+#set -x ANDROID_HOME /Users/Public/SDKs/android-sdk-macosx
+#set PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/platform-tools
 #set -x JAVA_OPTS "-Xms512m -Xmx1024m -XX:PermSize=64m -XX:MaxPermSize=128m -Xss512k"
 set -x GRADLE_HOME /opt/Developer/Apps/gradle-2.3
 set PATH $PATH $GRADLE_HOME/bin
@@ -21,10 +21,10 @@ set LANG en_US.UTF-8
 
 switch (uname)
     case Linux
-            echo Hi Tux!
+#            echo Hi Tux!
             set -x JAVA_HOME /usr/local/java/jdk1.7.0_72            
     case Darwin
-            echo Hi Hexley!
+#            echo Hi Hexley!
             set -x JAVA_HOME (/usr/libexec/java_home -v 1.7)
     case FreeBSD NetBSD DragonFly
             echo Hi Beastie!
