@@ -153,7 +153,7 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 
-#http://www.lingotrek.com/2010/12/integrate-emacs-with-mac-os-x-clipboard.html
+;;http://www.lingotrek.com/2010/12/integrate-emacs-with-mac-os-x-clipboard.html
 (defun mac-copy ()
   (shell-command-to-string "pbpaste"))
 

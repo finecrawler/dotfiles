@@ -26,6 +26,8 @@
 (load "10markdown-mode.el")
 (load "11mu4e.el")
 (load "12go-mode.el")
+(load "13ctable.el")
+(load "14org-manage.el")
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
