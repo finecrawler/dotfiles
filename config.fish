@@ -1,6 +1,8 @@
 # Change the default fish greeting
+# Here disable disable greeting by echo nothing
 function fish_greeting
-           fortune
+#           fortune
+#           echo fish
 end
 # Only needed when exec in active mode
 #funsave fish_greeting 

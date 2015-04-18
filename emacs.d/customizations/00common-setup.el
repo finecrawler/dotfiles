@@ -1,4 +1,4 @@
-;; Set the starting position and width and height of Emacs Window
+x-select-enable-clipboard;; Set the starting position and width and height of Emacs Window
 (add-to-list 'default-frame-alist '(left . 0))
 (add-to-list 'default-frame-alist '(top . 0))
 (add-to-list 'default-frame-alist '(height . 45))
@@ -49,6 +49,9 @@
 
 ;; Enable copy and pasting from clipboard
 (setq x-select-enable-clipboard t)
+
+;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
+(windmove-default-keybindings)
 
 (global-set-key [f2] 'comment-region)
 (global-set-key [f3] 'uncomment-region)
