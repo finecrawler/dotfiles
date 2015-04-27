@@ -166,5 +166,8 @@ x-select-enable-clipboard;; Set the starting position and width and height of Em
       (process-send-string proc text)
       (process-send-eof proc))))
 
-(setq interprogram-cut-function 'mac-paste)
-(setq interprogram-paste-function 'mac-copy)
+;;(setq interprogram-cut-function 'mac-paste)
+;;(setq interprogram-paste-function 'mac-copy)
+
+(setq x-select-enable-clipboard t
+            x-select-enable-primary t)
